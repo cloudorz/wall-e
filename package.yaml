@@ -27,6 +27,7 @@ dependencies:
 - lens
 - xml
 - time
+- yaml
 
 library:
   source-dirs: src

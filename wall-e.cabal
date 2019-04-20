@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0c4ca7a441c0606eb947dd6c474723814914e213f2d1cf2fc97544271fbf6708
+-- hash: eac6b9d0a7fb182720a16b6a20fb30c1da5c77646689d4d2aa96235d5624949e
 
 name:           wall-e
 version:        0.1.0.0
@@ -40,6 +40,7 @@ library
     , time
     , wreq
     , xml
+    , yaml
   default-language: Haskell2010
 
 executable wall-e-exe
@@ -58,6 +59,7 @@ executable wall-e-exe
     , wall-e
     , wreq
     , xml
+    , yaml
   default-language: Haskell2010
 
 test-suite wall-e-test
@@ -77,4 +79,5 @@ test-suite wall-e-test
     , wall-e
     , wreq
     , xml
+    , yaml
   default-language: Haskell2010
